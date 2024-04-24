@@ -1,0 +1,194 @@
+
+a{
+  text-decoration: none; /* Забирає підкреслення */
+  
+}
+
+li{
+  list-style-type: none;
+}
+
+
+.assortmentPage{
+    display: flex;
+    width: 100%;
+    height: 90%;
+    margin-top: 83px;
+    /* border: 5px solid red; */
+}
+
+
+.assortmentInfo{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+    width: 33.333%;
+    height: 100%;
+    /* border: 5px solid green; */
+    /* обрізає зображення, якщо воно перевищує розміри блоку */
+    overflow: hidden; 
+   
+}
+
+
+.connectingBlock{
+  position: absolute;
+  /* border: 5px solid rgb(128, 0, 0); */
+  width: 300px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: -120px;
+}
+
+/* .connectingBlockSpecial{
+  margin-top: -155px;
+  margin-right: 30px;
+} */
+
+
+
+
+
+.numbers{
+  border-width: 10px;
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  color: rgb(41, 145, 236);
+  background-color: white;
+  margin-bottom: 40px;
+  margin-top: 100px ;
+  margin-left: 25px;
+}
+
+
+.numbers:hover{
+  background-color: rgb(41, 145, 236);
+  color: white;
+}
+
+
+
+
+.assortmentWords{
+  display: flex;
+  justify-content: center;
+align-items: center;
+flex-direction: column;
+  color: rgb(255, 255, 255);
+ /* color: rgb(41, 145, 236); */
+  margin-bottom: 35px;
+  margin-left: 38px;
+  /* border: 5px solid white; */
+  border-radius: 5px;
+  /* background-color: rgb(41, 145, 236) ; */
+  width: 105%;
+  height: 100%;
+ font-weight: bold;
+ margin-right: 5vh;
+padding-left: 2px;
+font-size: 23px;
+font-weight: 1200;
+}
+
+.specialPhoto2{
+  width: 500px;
+}
+
+.specialWords{
+  color: black;
+  color: white;
+  margin-left: 50px;
+}
+
+
+.assortmentPhoto{
+  max-width: 100%; /* Максимальна ширина зображення - 100% ширини блоку */
+  max-height: 100%; /* Максимальна висота зображення - 100% висоти блоку */
+  width: auto; /* Автоматично встановлюється ширина зображення */
+  height:100%; /* Автоматично встановлюється висота зображення */
+  /* border:5px solid white */
+}
+
+li{
+  text-decoration: 0;
+}
+
+
+
+/* --------------------------------------------------------------- */
+/* @media (max-width: 1200px) {
+  .assortmentInfo li{
+
+  display: flex;
+  margin-right: 100px;
+  }
+} */
+
+/* для телефону ----------------------------------------------- */
+@media (max-width: 850px) {
+
+  .assortmentInfo{
+    width: 100%;
+    height: 400px ;
+    margin-bottom: -25px;
+    }
+
+
+.assortmentPage{
+  flex-direction: column;
+  height: auto;
+
+}
+
+
+.assortmentPhoto{
+width: 100%;
+height: 100%;
+} 
+
+.numbers{
+  margin-top: 35px ;
+}
+
+.connectingBlock{
+/* border: 5px solid red; */
+display: flex;
+justify-content: center;
+align-items: center;
+ margin-top: -60px;
+  width: 100%;
+height: 37%;
+/* border: 5px solid green; */
+}
+
+.assortmentWords{
+  display: flex;
+  justify-content: center;
+align-items: center;
+  width: 100%;
+  /* margin-top: -40px; */
+  /* ховаю */
+  border: transparent;
+background-color: transparent;
+
+}
+
+
+
+}
+
+
+
+
+
+
+

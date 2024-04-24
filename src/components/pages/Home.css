@@ -1,0 +1,65 @@
+
+.homeStory{
+position: absolute;
+overflow: hidden; /* обрізає зображення, якщо воно перевищує розміри блоку */
+width: auto;
+height: 4rem;
+font-size: 25px;
+color: white;
+z-index: 100;
+margin-top: 0;
+/* border: 3px solid green; */
+text-align: center;
+margin-top: 1rem;
+}
+
+.homeMainPhoto{
+    z-index: 0;
+    /* position: relative; */
+    /* штрина була 100%  */
+    width: 1280px;
+    height: 960px;
+    /* height: 590px; */
+    /* border: 5px solid red; */
+    overflow: hidden; /* обрізає зображення, якщо воно перевищує розміри блоку */
+    max-width: 100%; /* Максимальна ширина зображення - 100% ширини блоку */
+    max-height: 100%; /* Максимальна висота зображення - 100% висоти блоку */
+    width: auto; /* Автоматично встановлюється ширина зображення */
+    height:100%; /* Автоматично встановлюється висота зображення */
+    margin-top: 83px;
+}
+
+
+.secondBlock{
+    display: flex;
+    overflow: hidden; /* обрізає зображення, якщо воно перевищує розміри блоку */
+    width: 100%;
+    height: 80vh;
+}
+
+.homePhoto{
+    width: 52%;
+    height: 100%;
+}
+
+/* для телефону ----------------------------------------------- */
+@media (max-width: 1100px) {
+
+    .secondBlock{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .homeMainPhoto{
+        width: 100%;
+        height: 100%;
+        /* width: 1200px;
+        height: 800px; */
+    }
+
+    .homePhoto{
+        width: 100%;
+        height: 100%;
+    }
+
+}

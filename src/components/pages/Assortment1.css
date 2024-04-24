@@ -1,0 +1,38 @@
+.AssortmentPage1{
+    display: flex;
+    width: 100%;
+    height: auto;  /* ! */
+    /* border: 5px solid red; */
+    flex-wrap: wrap; /* Розрив рядків */
+    justify-content: space-between; /* Рівномірно розташовує блоки по горизонталі */
+    margin-top: 80px;
+}
+
+.AsortmentBlock{
+    width: 50%;
+    height: 20rem;
+    border: 5px solid black;
+    overflow: hidden;
+}
+
+.assortmentGallery{
+    max-width: 100%; /* Максимальна ширина зображення - 100% ширини блоку */
+    max-height: 100%; /* Максимальна висота зображення - 100% висоти блоку */
+    width: 100%; /* Автоматично встановлюється ширина зображення */
+    height:100%; /* Автоматично встановлюється висота зображення */
+}
+
+
+/* для телефону ----------------------------------------------- */
+@media (max-width: 850px) {
+    
+.AssortmentPage1{
+   flex-direction: column;
+}
+
+.AsortmentBlock{
+    width: 100%;
+    height: 500px;
+}
+
+}

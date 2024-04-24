@@ -1,0 +1,179 @@
+
+.aboutPage{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height: auto;
+    /* border: 5px solid red; */
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.aboutInfo{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 333px;
+    overflow: hidden; /* обрізає зображення, якщо воно перевищує розміри блоку */
+    border-top: 5px solid black;
+    color: white;
+    font-size: 20px;
+   
+}
+
+.aboutInfo span{
+    margin-top: 2rem;
+    margin-right: 10vh;
+    margin-left: 10vh;
+    /* align-items: center; */
+}
+
+
+
+.aboutPhoto{
+  margin-left: 10vh;
+  margin-right: 10vh;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  /* border: 5px solid red; */
+}
+
+.collagePhoto{
+    width: 600px;
+}
+
+
+
+/* #specialInfo {
+    border: 5px solid green;
+    margin-top: 10px;
+} */
+
+/* .aboutPhotoSpecial{
+    width: 20rem;
+    height: 20rem;
+    margin-right: 0;
+} */
+
+
+.Contacts{
+display: flex;
+justify-content: center; /* Вирівнюємо по горизонталі */
+  align-items: center; /* Вирівнюємо по вертикалі */
+  flex-direction: column;
+    width: 100%;
+    height: 15rem;
+    border-top: 5px solid rgb(0, 0, 0);
+    padding-top: 2.5rem;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    /* border: 5px solid green; */
+    padding: 20px;
+}
+
+
+
+
+.socialData{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    width: 300px;
+    margin-top: -20px;
+    /* border: 5px solid green; */
+}
+
+.instagramIcon{
+    display: block;
+    width:65px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 40px;
+    margin-right: 40px;
+    cursor: pointer;
+    color: rgb(255, 0, 187);
+    /* color: white; */
+     /* border: 5px solid green; */
+  /* border-width: 5px;  */
+}
+
+.instagramIcon:hover{
+    color: white;
+    background-color: rgb(255, 0, 187);
+    /* border: 3px solid white; */
+    
+}
+
+
+.socialWords{
+    padding: 0;
+    /* border: 5px solid green; */
+}
+
+.Contacts a{
+    display: inline-block;  
+}
+
+.phoneNumber2{
+    margin-left: 10px;
+}
+
+.geolocation{
+    width:500px; 
+    height:450px;
+    /* style:border:0; */
+     /* allowfullscreen:""; */
+      /* loading:lazy; */
+       /* referrerpolicy:no-referrer-when-downgrade; */
+}
+
+.emailAdress{
+    color: aquamarine;
+    color: white;
+    margin-left: 20px;
+}
+
+.emailAdress:hover{
+    color: white;
+    color: aquamarine;
+/* background-color: aquamarine;
+border-radius: 5px; */
+}
+
+
+/* для телефону ----------------------------------------------- */
+
+@media (max-width: 1000px) {
+
+.aboutInfo{
+flex-direction: column;
+height: 100%;
+    }
+
+.guaranteePhoto{
+    height: 400px;
+ 
+}
+
+#specialInfo {
+        order: -1; /* змінюємо порядок для першого предмета */
+      }
+
+    /* .Contacts{
+        height: 15rem;
+    } */
+      
+    #specialBlock{
+        height: 300px;
+    }
+
+    .collagePhoto{
+        height: 500px;
+        width: auto;
+    }
+}
