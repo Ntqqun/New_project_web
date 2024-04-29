@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+
 
 import "./Basement.css";
-import { Link, NavLink } from "react-router-dom";
+
 
 function Basement() {
     return  (
